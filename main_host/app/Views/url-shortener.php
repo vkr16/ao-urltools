@@ -161,6 +161,18 @@
                     Notiflix.Notify.failure("Something went wrong");
                 });
         }
+
+        function deleteUrl(id) {
+            $.post("<?= base_url('shortener/delete') ?>", {
+                    id: id
+                })
+                .done((data) => {
+                    Notiflix.Notify.success('URL deleted');
+                    setTimeout(function() {
+                        window.location.reload();
+                    }, 500);
+                })
+        }
     </script>
 </body>
 

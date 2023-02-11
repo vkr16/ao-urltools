@@ -99,6 +99,24 @@ class Shortener extends BaseController
         }
     }
 
+    public function deleteUrl()
+    {
+        $url_id = $_POST['id'];
+        if ($this->urlModel->where('id', $url_id)->delete()) {
+            $result = [
+                'status' => 'success',
+                'data' => 'deleted'
+            ];
+            return json_encode($result);
+        } else {
+            $result = [
+                'status' => 'error',
+                'data' => "Failed to delete data from database"
+            ];
+            return json_encode($result);
+        }
+    }
+
     function generateRandomString($length)
     {
         $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';

@@ -40,6 +40,7 @@ $routes->get('/logout', 'Auth::logout');
 $routes->post('/register', 'Auth::registerUser');
 $routes->post('/login', 'Auth::loginUser');
 $routes->post('/shortener/shorten', 'Shortener::shortenUrl');
+$routes->post('/shortener/delete', 'Shortener::deleteUrl');
 
 /*
  * --------------------------------------------------------------------
