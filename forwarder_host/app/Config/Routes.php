@@ -29,8 +29,8 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/(:any)', 'Forwarder::index/$1');
 $routes->get('/', 'Forwarder::dashboard');
+$routes->get('/(:any)', 'Forwarder::index/$1');
 
 
 
