@@ -24,6 +24,7 @@ class Shortener extends BaseController
         $urls = $this->urlModel->where('creator_id', $user[0]['id'])->find();
         $data = [
             'urls' => $urls,
+            'current_nav' => "shortener"
         ];
         return view('url-shortener', $data);
     }

@@ -39,8 +39,15 @@ $routes->get('/logout', 'Auth::logout');
 
 $routes->post('/register', 'Auth::registerUser');
 $routes->post('/login', 'Auth::loginUser');
+
+// URL SHORTENER
 $routes->post('/shortener/shorten', 'Shortener::shortenUrl');
 $routes->post('/shortener/delete', 'Shortener::deleteUrl');
+
+// QR GENERATOR
+$routes->get('/qr', 'Qrgenerator::generator');
+
+
 
 /*
  * --------------------------------------------------------------------
