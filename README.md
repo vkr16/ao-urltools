@@ -1,5 +1,7 @@
 # Multifunction URL Shortener by Fikri Miftah
 
+## Now you can host your own URL Shortener
+
 ## Installation Guide
 
 1. You need to have domain and subdomain registered to install this application
