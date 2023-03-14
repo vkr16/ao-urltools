@@ -46,7 +46,7 @@ This project is meant to showcase my skills and experience as a web developer. Y
 
 ## Installation Guide
 
-1. [Download the portfolio release here](https://github.com/vkr16/woowprint/releases/tag/v1.0-portfolio)
+1. [Download the portfolio release here](https://github.com/vkr16/ao-urltools/releases/tag/v1.1-portfolio)
 2. Extract the zip and copy it to your localhost or server directory
  - Copy the files inside `main_host` folder to your subdomain folder 
 
