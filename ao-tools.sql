@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 11, 2023 at 08:50 AM
+-- Generation Time: Mar 14, 2023 at 03:52 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `url_shortener`
+-- Database: `portfolios-ao-tools`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE `urls` (
 --
 
 INSERT INTO `urls` (`id`, `long_url`, `short_url`, `hits`, `creator_id`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'https://akuonline.my.id', 'akuonline', 1, 1, 1676101821, 1676101830, NULL);
+(1, 'https://akuonline.my.id', 'akuonline', 2, 1, 1676101821, 1678762297, NULL);
 
 -- --------------------------------------------------------
 
@@ -68,7 +68,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `token`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'Admin', 'AkuOnline', 'admin@akuonline.my.id', '$2y$10$xNRsEYZVrAbVVuuoB8101OJtimRGAkAOyf68NkaUbNDgINNC7i3w2', 'Nqb6ezLQ4z5Ji9/AH60+bHHIy6J//KHyVpCpo/b0ZdA=', 1676101804, 1676101804, NULL);
+(1, 'Admin', 'AkuOnline', 'admin@akuonline.my.id', '$2y$10$8uH1YGRA6kvmNcXkHzbB5OhqJw/NXKpwiCUaCwQnaLZC9gAYzKjru', 'Nqb6ezLQ4z5Ji9/AH60+bHHIy6J//KHyVpCpo/b0ZdA=', 1676101804, 1676101804, NULL);
 
 --
 -- Indexes for dumped tables
