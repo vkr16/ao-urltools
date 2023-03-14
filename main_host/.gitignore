@@ -36,14 +36,6 @@ $RECYCLE.BIN/
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
-#-------------------------
-# Environment Files
-#-------------------------
-# These should never be under version control,
-# as it poses a security risk.
-.env
-.vagrant
-Vagrantfile
 
 #-------------------------
 # Temporary Files
@@ -81,11 +73,6 @@ tests/coverage*
 phpunit
 
 #-------------------------
-# Composer
-#-------------------------
-vendor/
-
-#-------------------------
 # IDE / Development Files
 #-------------------------
 
@@ -99,15 +86,6 @@ _modules/*
 .idea/
 *.iml
 
-# Netbeans
-nbproject/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-.nb-gradle/
 
 # Sublime Text
 *.tmlanguage.cache
