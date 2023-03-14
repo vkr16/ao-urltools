@@ -22,6 +22,8 @@ You can create your own account for free to use the tools.
 
 You can visit it here : [AkuOnline Tools](https://fma.my.id)
 
+You can also clone this repository and host your own url shortener and the other tools with your own domain, and **It's Free**.
+
 # Technologies
 
 - PHP 8.1
